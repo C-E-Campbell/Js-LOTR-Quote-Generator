@@ -13,10 +13,13 @@ function getRandomColor() {
 // setBackgroundColor() -- sets the background color of the body element.
 // side note -- hsl was used so I could make sure the colors wouldnt be too bright against the white font text. lightness is set to 20% always.
 function setBackgroundColor() {
-  let h = getRandomColor();
-  let hsl = "hsl(" + h + ", 40%, 20%, 0.86)"
+  let hue = getRandomColor();
+  let hue2 = getRandomColor();
+  let hsl1 = "hsl(" + hue + ", 45%, 20%, 0.85)";
+  let hsl2 = "hsl(" + hue2 + ", 45%, 40%, 0.85)";
   let backgroundColor = document.getElementById('body');
-  backgroundColor.style.cssText = "background: linear-gradient(" + hsl + ", " + hsl + "), url(https://s.aolcdn.com/hss/storage/midas/7d48de207b934a3e3a63e2aab34d2d09/205858706/lord_of_the_rings.jpg)";
+  backgroundColor.style.cssText = "background: linear-gradient(" + hsl1 + ", " + hsl2 + "), url(https://s.aolcdn.com/hss/storage/midas/7d48de207b934a3e3a63e2aab34d2d09/205858706/lord_of_the_rings.jpg)";
+}
 }
 
 // printQuote() -- calls the getRandomQuote function and prints the random quote chosen to the screen.
