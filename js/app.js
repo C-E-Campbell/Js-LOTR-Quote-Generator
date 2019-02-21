@@ -14,9 +14,9 @@ function getRandomColor() {
 function setBackgroundColor() {
   let h = getRandomColor();
   let s = getRandomColor();
-  let hsl = "hsl(" + h + ", " + s + "%, 20%, 0.92)"
+  let hsl = "hsl(" + h + ", " + s + "%, 20%, 0.86)"
   let backgroundColor = document.getElementById('body');
-  backgroundColor.style.cssText = "background: linear-gradient(" + hsl + ", " + hsl + "), url(img/lotr.jpg)";
+  backgroundColor.style.cssText = "background: linear-gradient(" + hsl + ", " + hsl + "), url(https://s.aolcdn.com/hss/storage/midas/7d48de207b934a3e3a63e2aab34d2d09/205858706/lord_of_the_rings.jpg)";
 }
 
 // printQuote() -- calls the getRandomQuote function and prints the random quote chosen to the screen.

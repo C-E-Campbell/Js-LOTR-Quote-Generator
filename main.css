@@ -26,17 +26,19 @@ body {
 #quote_box::before {
   content: '"';
   font-size: 2em;
+  margin: 3px;
 }
 
 #quote_box::after {
   content: '"';
   font-size: 2em;
+  margin: 3px;
 }
 
 #source {
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 60%;
   height: 3em;
   width: 9em;
   font-size: 50px;
@@ -60,7 +62,7 @@ a {
 }
 
 a:hover {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.466);
   color: #333;
   border: 2px solid #fff;
 }
