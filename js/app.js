@@ -6,7 +6,7 @@ function getRandomQuote() {
 
 // getRandomColor() -- generates a random number to be used in making a random HSL color.
 function getRandomColor() {
-  var randomNumber = Math.floor(Math.random() * 255);
+  var randomNumber = Math.floor(Math.random() * 360);
   return randomNumber;
 }
 
@@ -14,8 +14,7 @@ function getRandomColor() {
 // side note -- hsl was used so I could make sure the colors wouldnt be too bright against the white font text. lightness is set to 20% always.
 function setBackgroundColor() {
   let h = getRandomColor();
-  let s = getRandomColor();
-  let hsl = "hsl(" + h + ", " + s + "%, 20%, 0.86)"
+  let hsl = "hsl(" + h + ", 40%, 20%, 0.86)"
   let backgroundColor = document.getElementById('body');
   backgroundColor.style.cssText = "background: linear-gradient(" + hsl + ", " + hsl + "), url(https://s.aolcdn.com/hss/storage/midas/7d48de207b934a3e3a63e2aab34d2d09/205858706/lord_of_the_rings.jpg)";
 }
