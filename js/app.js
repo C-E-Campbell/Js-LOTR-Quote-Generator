@@ -4,13 +4,14 @@ function getRandomQuote() {
   return quoteIndex;
 }
 
-// getRandomColor() -- generates a random number to be used in making a random RGB color.
+// getRandomColor() -- generates a random number to be used in making a random HSL color.
 function getRandomColor() {
   var randomNumber = Math.floor(Math.random() * 255);
   return randomNumber;
 }
 
 // setBackgroundColor() -- sets the background color of the body element.
+// side note -- hsl was used so I could make sure the colors wouldnt be too bright against the white font text. lightness is set to 20% always.
 function setBackgroundColor() {
   let h = getRandomColor();
   let s = getRandomColor();
