@@ -27,7 +27,7 @@ function printQuote() {
   var body = document.getElementById("quote_box");
   var quoteSource = document.getElementById("source");
   let randomNum = getRandomQuote();
-  quote_box.innerHTML = quotes[randomNum].quote;
+  quote_box.innerHTML = "<p>"+quotes[randomNum].quote+"</p>";
   source.innerHTML = quotes[randomNum].source;
 }
 
