@@ -30,12 +30,14 @@ function printQuote() {
   let randomNum = getRandomQuote();
   quote_box.innerHTML = "<p>" + quotes[randomNum].quote + "</p>";
   source.innerHTML = quotes[randomNum].source;
-  if(quotes[randomNum].movie === undefined){
+
+  //  this IF STATEMENT checks to see if the random quote has a movie property of something other than undefined: if it does we add it to the page.
+  // Only three of the quotes have a movie property.
+  if (quotes[randomNum].movie === undefined) {
     movie.innerHTML = "";
-  }else{
+  } else {
     movie.innerHTML = quotes[randomNum].movie;
   }
-  
 }
 
 let buttonClick = document.getElementById("button");
