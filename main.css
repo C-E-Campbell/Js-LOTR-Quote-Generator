@@ -6,8 +6,8 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  
-  
+
+
 }
 
 #quote_box {
@@ -65,24 +65,37 @@ a {
 }
 
 a:hover {
-  background-color: rgba(255, 255, 255, 0.473);
-  border: 2px solid rgba(255, 255, 255, 0.562);
+  background-color: rgba(255, 255, 255, 0.589);
+  border: 2px solid rgba(255, 255, 255, 0.815);
   color: #333;
 }
 
 
-@media(min-width: 1200px){
-  #quote_box{
-    font-size: 3em;
+@media(min-width: 1200px) {
+  #quote_box {
+    font-size: 3.5em;
+    display: inline;
   }
-  .text_box{
+
+  .text_box {
     width: 60%;
   }
-  #source{
-    font-size: 1.5em;
+
+  p::before {
+    content: '"';
+    margin: 15px;
   }
-  a{
-    top: 65%;
+
+  p::after {
+    content: '"';
+    margin: 15px;
+  }
+
+  #source {
+    font-size: 2em;
+  }
+
+  a {
+    top: 70%;
   }
 }
-
