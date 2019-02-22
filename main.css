@@ -25,10 +25,6 @@ body {
   align-items: center;
 }
 
-
-
-
-
 #source {
   width: 40%;
   font-size: 1.2em;
@@ -117,11 +113,13 @@ a:hover {
   0% {
     opacity: 0;
   }
-  15%{
+
+  15% {
     opacity: 0.5;
   }
+
   25% {
-   
+
     opacity: 1;
   }
 
@@ -129,8 +127,6 @@ a:hover {
 
     opacity: 1;
   }
-
- 
 
   100% {
     opacity: 0;
