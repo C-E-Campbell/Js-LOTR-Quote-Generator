@@ -2,7 +2,7 @@
 let quotes = [{
     quote: "Nobody tosses a Dwarf!",
     source: "- Gimli",
-    
+
   },
   {
     quote: "One does not simply walk into Mordor",
@@ -11,7 +11,7 @@ let quotes = [{
   {
     quote: "You shall not pass!",
     source: "- Gandalf",
-    
+
   },
   {
     quote: "You need people of intelligence on this sort of mission...quest...thing.",
@@ -20,7 +20,7 @@ let quotes = [{
   {
     quote: "A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to.",
     source: "- Gandalf",
-    
+
   },
   {
     quote: "Memory is not what the heart desires. That is only a mirror.",
