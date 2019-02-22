@@ -37,6 +37,19 @@ body {
   text-shadow: 1px 5px 10px rgb(14, 14, 14);
 }
 
+h1 {
+  font-size: 20px;
+  font-family: 'Felipa', cursive;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fade 3.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
 p {
   text-align: center;
 }
@@ -73,7 +86,7 @@ a:hover {
 
 @media(min-width: 1200px) {
   #quote_box {
-    font-size: 3.5em;
+    font-size: 3.0em;
     display: inline;
   }
 
@@ -97,5 +110,29 @@ a:hover {
 
   a {
     top: 70%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  15%{
+    opacity: 0.5;
+  }
+  25% {
+   
+    opacity: 1;
+  }
+
+  50% {
+
+    opacity: 1;
+  }
+
+ 
+
+  100% {
+    opacity: 0;
   }
 }
