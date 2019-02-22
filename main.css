@@ -44,6 +44,7 @@ h1 {
   transform: translate(-50%, -50%);
   animation: fade 3.5s ease-in-out;
   animation-fill-mode: both;
+  margin: 10px;
 }
 
 p {
