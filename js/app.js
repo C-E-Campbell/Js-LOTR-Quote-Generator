@@ -24,11 +24,18 @@ function setBackgroundColor() {
 
 // printQuote() -- calls the getRandomQuote function and prints the random quote chosen to the screen.
 function printQuote() {
-  var body = document.getElementById("quote_box");
-  var quoteSource = document.getElementById("source");
+  let body = document.getElementById("quote_box");
+  let quoteSource = document.getElementById("source");
+  let quoteMovie = document.getElementById("movie");
   let randomNum = getRandomQuote();
   quote_box.innerHTML = "<p>" + quotes[randomNum].quote + "</p>";
   source.innerHTML = quotes[randomNum].source;
+  if(quotes[randomNum].movie === undefined){
+    movie.innerHTML = "";
+  }else{
+    movie.innerHTML = quotes[randomNum].movie;
+  }
+  
 }
 
 let buttonClick = document.getElementById("button");

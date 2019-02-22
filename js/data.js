@@ -42,4 +42,22 @@ let quotes = [{
     quote: "Don’t adventures ever have an end? I suppose not. Someone else always has to carry on the story.",
     source: "- Bilbo"
   },
+  {
+    quote: "Not all those who wander are lost.",
+    source: "- J.R.R Tolkien"
+  },
+  {
+    quote: "He that breaks a thing to find out what it is, has left the path of wisdom.",
+    source: "- Gandalf"
+  },
+  {
+    quote: "We wants it, we needs it. Must have the precious. They stole it from us. Sneaky little hobbitses. Wicked, tricksy, false!",
+    source: "- Gollum",
+    movie: "The Two Towers"
+  },
+  {
+    quote: "The mightiest man may be slain by one arrow.",
+    source: "- Pippin",
+    movie: "The Return of the King"
+  }
 ];
