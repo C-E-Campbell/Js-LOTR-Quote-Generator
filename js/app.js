@@ -24,17 +24,18 @@ const setBackgroundColor = () => {
 
 // printQuote() -- calls the getRandomQuote function and prints the random quote chosen to the screen.
 const printQuote = () => {
-  let randomNum = getRandomQuote();
-  quote_box.innerHTML = "<p>" + quotes[randomNum].quote + "</p>";
-  source.innerHTML = quotes[randomNum].source;
-  picture.innerHTML = "<img src = " + quotes[randomNum].picture + ">";
+  let randomQuoteIndex = getRandomQuote();
+  quote_box.innerHTML = "<p>" + quotes[randomQuoteIndex].quote + "</p>";
+  source.innerHTML = quotes[randomQuoteIndex].source;
+  picture.innerHTML = "<img src = " + quotes[randomQuoteIndex].picture + ">";
 
   // this IF STATEMENT checks to see if the random quote has a movie property of something other than undefined: if it does we add it to the page.
   // note: only three of the quotes have a movie property.
-  if (quotes[randomNum].movie === undefined) {
+
+  if (quotes[randomQuoteIndex].movie === undefined) {
     movie.innerHTML = "";
   } else {
-    movie.innerHTML = quotes[randomNum].movie;
+    movie.innerHTML = quotes[randomQuoteIndex].movie;
   }
 
 }
