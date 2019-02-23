@@ -63,6 +63,10 @@ h3 {
   position: absolute;
 }
 
+.logo_box {
+  display: none;
+}
+
 a {
   text-align: center;
   color: #fff;
@@ -108,11 +112,13 @@ img {
   .text_box {
     width: 60%;
   }
-  #picture{
+
+  #picture {
     position: relative;
     left: 120px;
     top: 70px;
   }
+
   p::before {
     content: '"';
     margin: 15px;
@@ -129,6 +135,13 @@ img {
 
   a {
     top: 70%;
+  }
+
+  .logo_box {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
   }
 }
 
