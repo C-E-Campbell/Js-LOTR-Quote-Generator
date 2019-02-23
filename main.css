@@ -6,7 +6,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   overflow: hidden;
-
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -39,6 +39,7 @@ body {
 #movie {
   font-size: 0.8em;
 }
+
 
 h1 {
   font-size: 20px;
@@ -100,14 +101,18 @@ img {
   }
 
   img {
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
   }
 
   .text_box {
     width: 60%;
   }
-
+  #picture{
+    position: relative;
+    left: 120px;
+    top: 75px;
+  }
   p::before {
     content: '"';
     margin: 15px;
