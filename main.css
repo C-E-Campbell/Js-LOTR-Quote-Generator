@@ -111,7 +111,7 @@ img {
   #picture{
     position: relative;
     left: 120px;
-    top: 75px;
+    top: 70px;
   }
   p::before {
     content: '"';
