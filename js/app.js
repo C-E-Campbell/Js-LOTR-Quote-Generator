@@ -7,7 +7,7 @@ const backgroundColor = document.getElementById('body');
 const buttonClick = document.getElementById("button");
 //--------------------------------------------------------//
 
-// Auto Change Function for extra credit -- after 15 seconds the screen will auto chnage quotes and colors
+// Auto Change Functionality for extra credit -- after 15 seconds the screen will auto chnage quotes and colors
 function autoChangeQuote() {
   window.setInterval(changeQuoteAndColor, 15000);
 }
@@ -53,6 +53,7 @@ const printQuote = () => {
 // calling the two functions to set the intial quote and color, the user will use the button going forwards.
 setBackgroundColor();
 printQuote();
+// intializing auto change function
 autoChangeQuote();
 
 // Button Functionality
