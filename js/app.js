@@ -7,7 +7,7 @@ const backgroundColor = document.getElementById('body');
 const buttonClick = document.getElementById("button");
 //--------------------------------------------------------//
 
-// Auto Chnage Function for extra credit -- after 15 seconds the screen will auto chnage quotes and colors
+// Auto Change Function for extra credit -- after 15 seconds the screen will auto chnage quotes and colors
 function autoChangeQuote() {
   window.setInterval(changeQuoteAndColor, 15000);
 }
