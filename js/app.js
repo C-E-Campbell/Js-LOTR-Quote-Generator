@@ -1,10 +1,10 @@
 //------------------DOM Acquisition-----------------------//
-let body = document.getElementById("quote_box");
-let quoteSource = document.getElementById("source");
-let quoteMovie = document.getElementById("movie");
-let quotePicture = document.getElementById("picture");
-let backgroundColor = document.getElementById('body');
-let buttonClick = document.getElementById("button");
+const body = document.getElementById("quote_box");
+const quoteSource = document.getElementById("source");
+const quoteMovie = document.getElementById("movie");
+const quotePicture = document.getElementById("picture");
+const backgroundColor = document.getElementById('body');
+const buttonClick = document.getElementById("button");
 //--------------------------------------------------------//
 
 // getRandomQuote() -- gets a random number and returns it. The random number will be the index in the Quote Array of the  random quote to use.
