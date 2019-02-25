@@ -7,6 +7,16 @@ const backgroundColor = document.getElementById('body');
 const buttonClick = document.getElementById("button");
 //--------------------------------------------------------//
 
+// Auto Chnage Function for extra credit -- after 15 seconds the screen will auto chnage quotes and colors
+function autoChangeQuote() {
+  window.setInterval(changeQuoteAndColor, 15000);
+}
+function changeQuoteAndColor() {
+  setBackgroundColor();
+  printQuote();
+}
+//----------------------------------------------------------//
+
 // getRandomQuote() -- gets a random number and returns it. The random number will be the index in the Quote Array of the  random quote to use.
 const getRandomQuote = () => Math.floor(Math.random() * (quotes.length));
 
@@ -43,8 +53,9 @@ const printQuote = () => {
 // calling the two functions to set the intial quote and color, the user will use the button going forwards.
 setBackgroundColor();
 printQuote();
+autoChangeQuote();
 
-// each click of the button will call our main functions again
+// Button Functionality
 buttonClick.onclick = function () {
   setBackgroundColor();
   printQuote();
