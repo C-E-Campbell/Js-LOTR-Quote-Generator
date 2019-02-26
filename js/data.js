@@ -49,7 +49,7 @@ let quotes = [{
   {
     quote: "Don’t adventures ever have an end? I suppose not. Someone else always has to carry on the story.",
     source: "- Bilbo",
-    picture: "https://www.universeguide.com/mobile/bilbobagginsfromlordoftherings.jpg"
+    picture: "https://i.pinimg.com/originals/52/bb/98/52bb98ae46ce541d5e9c782dc5b1b9fd.jpg"
   },
   {
     quote: "Not all those who wander are lost.",
