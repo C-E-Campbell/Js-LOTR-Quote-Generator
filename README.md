@@ -1,4 +1,4 @@
-<h1> Unit 1 Treehouse Project</h1>
+<h1> Unit 1 Treehouse Project: Random Quote Generator</h1>
 <p>View the live working site here!
 <ul>
 <li>Auto changes quotes after 15 secs</li>
